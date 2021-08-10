@@ -30,11 +30,7 @@ const Chat = () => {
     }`;
   };
 
-  const isEnter = (e) => {
-    console.log('here');
-    if (e.keyCode === 13) handleSend();
-  };
-
+ 
   const handleReply = ({ user, text }) => {
     repliedMessage.current.style.visibility = 'visible';
     setIsReplied(`${user}: ${text}`);
