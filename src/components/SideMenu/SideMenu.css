@@ -1,0 +1,94 @@
+.menu-section {
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  color: white;
+}
+
+.menu-options {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  flex: 1;
+}
+
+.users-menu {
+  flex: 10;
+  overflow-y: scroll;
+}
+
+.users-menu::-webkit-scrollbar {
+  width: 0;
+  background-color: transparent;
+}
+
+
+.users-me {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  color: #fff;
+  padding: 0.5rem;
+  margin-bottom: 1px;
+  
+  
+}
+
+.user {
+  display: flex;
+  flex: 1;
+  flex-wrap: wrap;
+  color: #fff;
+  padding: 0.5rem;
+  margin-bottom: 1px;
+
+}
+
+.user-info {
+  display: flex;
+  transition: 0.35s ease-in;
+  align-items: center;
+}
+
+.user-info:hover {
+  background-color: rgb(93, 100, 85);
+}
+
+.icon{
+    flex: 1;
+    color: black;
+}
+
+.my-info{
+    display: flex;
+    flex: 6;
+    flex-direction: column;
+    margin-left: 5px;
+}
+.icon-wrap{
+  align-items: center;
+}
+
+.name{
+    font-size: 16px;
+}
+
+.occupation{
+  font-size: 12px;
+}
+
+.status{
+    font-size: 10px;
+    color: rgb(55, 248, 55);
+}
+
+.reply-button{
+  position: relative;
+    cursor: pointer;
+    margin-right: 5px;
+    transition: transform .3s ease-in;
+}
+.reply-button:hover{
+    transform: rotate(45deg) 
+}
+
